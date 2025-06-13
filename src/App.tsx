@@ -43,6 +43,7 @@ function App() {
 
   const handleStepChange = (step: string) => {
     setActiveTab(step as TabType);
+    window.scrollTo(0, 0);
   };
 
   const handleGetStarted = () => {
