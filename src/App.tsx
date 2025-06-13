@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import { Zap } from 'lucide-react';
-import { WelcomeGuide } from './components/WelcomeGuide';
-import { StepNavigation } from './components/StepNavigation';
-import { FileUpload } from './components/FileUpload';
-import { AlgorithmGroups } from './components/AlgorithmGroups';
-import { DataProcessor } from './components/DataProcessor';
-import { SimpleVisualizer } from './components/SimpleVisualizer';
-import { LASFile } from './types/wellLog';
+import { WelcomeGuide } from './components/WelcomeGuide.tsx';
+import { StepNavigation } from './components/StepNavigation.tsx';
+import { FileUpload } from './components/FileUpload.tsx';
+import { AlgorithmGroups } from './components/AlgorithmGroups.tsx';
+import { DataProcessor } from './components/DataProcessor.tsx';
+import { SimpleVisualizer } from './components/SimpleVisualizer.tsx';
+import { LASFile } from './types/wellLog.ts';
 
 type TabType = 'upload' | 'standardize' | 'process' | 'visualize';
 
